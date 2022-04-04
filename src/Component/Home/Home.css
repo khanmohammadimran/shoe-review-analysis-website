@@ -1,0 +1,49 @@
+nav {
+    margin: auto;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #2b2b2b;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero-section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* background: #E7E5E3; */
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    color: tomato;
+}
+
+.hero-section h3 {
+    font-size: 30px;
+}
+
+.primary-btn {
+    background-color: tomato;
+    font-size: 24px;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.primary-btn:hover {
+    cursor: pointer
+}
+
+.hero-section img {
+    width: 600px;
+}

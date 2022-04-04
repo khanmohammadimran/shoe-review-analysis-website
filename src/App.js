@@ -9,7 +9,7 @@ import Reviews from './Component/Reviews/Reviews';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>

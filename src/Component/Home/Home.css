@@ -1,5 +1,5 @@
 nav {
-    margin: auto;
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -15,11 +15,16 @@ nav a:hover {
 }
 
 .hero-section {
+    text-align: center;
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     /* background: #E7E5E3; */
+}
+
+.hero-section img {
+    width: 600px;
 }
 
 .hero-section h1 {
@@ -44,6 +49,6 @@ nav a:hover {
     cursor: pointer
 }
 
-.hero-section img {
-    width: 600px;
+.customer-review {
+    text-align: center;
 }

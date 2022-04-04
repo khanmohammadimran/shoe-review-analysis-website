@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-// import reviewCart from '../ReviewCart/ReviewCart';
-import ReviewCart from '../ReviewCart/ReviewCart'
+import './reviews.css'
+import Review from '../Review/Review';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([])
+    const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
         fetch('reviews.json')
@@ -12,12 +12,14 @@ const Reviews = () => {
     }, []);
     return (
         <div>
-            {
-                reviews.map(review => <ReviewCart
-                    key={review.id}>
-                    review={review}
-                </ReviewCart>)
-            }
+            <h1>What Customer Say About Us</h1>
+            <div className="client-reviews">
+                {
+                    reviews.map(review => <Review
+                        key={review.id}
+                        review={review}></Review>)
+                }
+            </div>
         </div>
     );
 };

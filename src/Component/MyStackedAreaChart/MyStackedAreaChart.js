@@ -1,5 +1,6 @@
 import React from 'react';
 import { Area, AreaChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import './MyStackedAreaChart.css'
 
 const MyStackedAreaChart = () => {
     const data = [
@@ -42,6 +43,9 @@ const MyStackedAreaChart = () => {
     ];
     return (
         <div>
+            <div className='chart-text'>
+                <h3>Stacked Area Chart</h3>
+            </div>
             <AreaChart width={400} height={400} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />

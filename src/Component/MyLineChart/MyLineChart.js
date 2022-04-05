@@ -42,6 +42,9 @@ const MyLineChart = () => {
     ];
     return (
         <div>
+            <div className='chart-text'>
+                <h3>Line Chart</h3>
+            </div>
             <LineChart width={400} height={400} data={data}>
                 <Line dataKey={'revenue'}></Line>
                 <Line dataKey={'sell'}></Line>

@@ -2,8 +2,6 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import UseCustomHook from '../../customHooks/UseCustomHook';
 import Review from '../Review/Review';
-// import Review from '../Review/Review';
-// import Reviews from '../Reviews/Reviews';
 import './Home.css'
 
 const Home = () => {

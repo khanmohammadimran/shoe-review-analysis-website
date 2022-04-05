@@ -65,9 +65,9 @@ h1 {
     justify-items: center;
 }
 
-.customer-review-title {
+.secondary-review-title {
     background: tomato;
-    padding: 1px 0;
+    padding: 10px 0;
     margin: 0;
     margin-bottom: 30px;
 }

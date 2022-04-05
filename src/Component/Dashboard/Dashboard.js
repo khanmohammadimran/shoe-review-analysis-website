@@ -1,14 +1,17 @@
 import React from 'react';
 import MyLineChart from '../MyLineChart/MyLineChart';
-import MyTwoLevelPieChart from '../MyTwoLevelPieChart/MyTwoLevelPieChart';
+import MyStackedAreaChart from '../MyStackedAreaChart/MyStackedAreaChart';
+import './Dashboard.css'
 
 const Dashboard = () => {
     return (
         <div>
-            <h1>This is Dashboard</h1>
-            <div>
+            <div className='secondary-review-title'>
+                <h2>This is Dashboard</h2>
+            </div>
+            <div className='charts'>
                 <MyLineChart></MyLineChart>
-                <MyTwoLevelPieChart></MyTwoLevelPieChart>
+                <MyStackedAreaChart></MyStackedAreaChart>
             </div>
         </div>
     );

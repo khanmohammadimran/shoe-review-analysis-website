@@ -7,7 +7,7 @@ const Reviews = () => {
 
     return (
         <div>
-            <h2 className='customer-review-title'>What Customer Say About Us</h2>
+            <h2 className='secondary-review-title'>What Customer Say About Us</h2>
             <div className="client-reviews">
                 {
                     reviews.map(review => <Review

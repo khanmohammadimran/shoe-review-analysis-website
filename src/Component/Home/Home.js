@@ -30,7 +30,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='customer-review'>
-                <div className='customer-review-title'>
+                <div className='secondary-review-title'>
                     <h2>Customer Review</h2>
                 </div>
                 <div className='few-reviews'>

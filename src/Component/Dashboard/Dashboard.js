@@ -7,7 +7,7 @@ const Dashboard = () => {
     return (
         <div>
             <div className='secondary-review-title'>
-                <h2>This is Dashboard</h2>
+                <h2>Chart for result analysis</h2>
             </div>
             <div className='charts'>
                 <MyLineChart></MyLineChart>

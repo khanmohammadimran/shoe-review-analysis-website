@@ -1,12 +1,13 @@
 nav {
     text-align: center;
-    margin-top: 20px;
+    background: #8479E1;
+    padding: 10px 0;
 }
 
 nav a {
     text-decoration: none;
     margin-right: 20px;
-    color: #2b2b2b;
+    color: #FFF8D5;
     font-size: 24px;
 }
 
@@ -25,6 +26,10 @@ nav a:hover {
 
 .hero-section img {
     width: 600px;
+}
+
+.hero-text p {
+    padding: 0 110px;
 }
 
 h1 {
@@ -51,4 +56,22 @@ h1 {
 
 .customer-review {
     text-align: center;
+}
+
+.few-reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.customer-review-title {
+    background: tomato;
+    padding: 1px 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.secondary-btn {
+    margin-top: 30px;
 }

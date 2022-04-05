@@ -1,18 +1,13 @@
-import React, { useEffect, useState } from 'react';
 import './reviews.css'
 import Review from '../Review/Review';
+import UseCustomHook from '../../customHooks/UseCustomHook';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
+    const [reviews] = UseCustomHook();
 
-    useEffect(() => {
-        fetch('reviews.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, []);
     return (
         <div>
-            <h1>What Customer Say About Us</h1>
+            <h2 className='customer-review-title'>What Customer Say About Us</h2>
             <div className="client-reviews">
                 {
                     reviews.map(review => <Review

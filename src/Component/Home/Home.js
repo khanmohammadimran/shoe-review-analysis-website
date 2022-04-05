@@ -1,8 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import UseCustomHook from '../../customHooks/UseCustomHook';
+import Review from '../Review/Review';
+// import Review from '../Review/Review';
+// import Reviews from '../Reviews/Reviews';
 import './Home.css'
 
 const Home = () => {
+    const navigate = useNavigate();
+    const [reviews] = UseCustomHook();
     return (
         <div>
             <nav>
@@ -24,10 +30,17 @@ const Home = () => {
                 </div>
             </div>
             <div className='customer-review'>
-                <h1>Customer Review</h1>
-                <Link to="/reviews">
-                    <button className='primary-btn'>See All Reviews</button>
-                </Link>
+                <div className='customer-review-title'>
+                    <h2>Customer Review</h2>
+                </div>
+                <div className='few-reviews'>
+                    {
+                        reviews.slice(0, 6).map(review => <Review
+                            key={review.id}
+                            review={review}></Review>)
+                    }
+                </div>
+                <button className='primary-btn secondary-btn' onClick={() => navigate('/reviews')}>See All Reviews</button>
             </div>
         </div>
     );

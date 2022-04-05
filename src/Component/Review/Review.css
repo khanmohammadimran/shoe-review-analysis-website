@@ -1,4 +1,8 @@
-.client-review {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.review-cart {
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid #b6b9bb;
+    border-radius: 8px;
+    padding: 0 10px;
 }

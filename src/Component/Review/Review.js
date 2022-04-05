@@ -6,10 +6,13 @@ const Review = (props) => {
     const { name, ratings, review } = props.review;
 
     return (
-        <div>
-            <h2>{name} </h2>
-            <h4>{review} </h4>
-            <h6>{ratings} </h6>
+        <div className='review-cart'>
+
+            <h3>Name: {name} </h3>
+            <hr />
+            <p>{review} </p>
+            <hr />
+            <p>Ratings: <strong>{ratings}</strong></p>
         </div>
     );
 };

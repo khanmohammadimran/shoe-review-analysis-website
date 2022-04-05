@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import UseCustomHook from '../../customHooks/UseCustomHook';
 import Review from '../Review/Review';
 import './Home.css'
@@ -9,13 +9,7 @@ const Home = () => {
     const [reviews] = UseCustomHook();
     return (
         <div>
-            <nav>
-                <Link to="/home">HOME</Link >
-                <Link to="/reviews">REVIEWS</Link >
-                <Link to="/dashboard">DASHBOARD</Link >
-                <Link to="/blogs">BLOGS</Link >
-                <Link to="/about">ABOUT</Link >
-            </nav>
+
             <div className="hero-section">
                 <div className="hero-text">
                     <h1>Keep it Classic</h1>

@@ -3,6 +3,7 @@ import './App.css';
 import About from './Component/About/About';
 import Blogs from './Component/Blogs/Blogs';
 import Dashboard from './Component/Dashboard/Dashboard';
+import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import NotFound from './Component/NotFound/NotFound';
 import Reviews from './Component/Reviews/Reviews';
@@ -10,6 +11,7 @@ import Reviews from './Component/Reviews/Reviews';
 function App() {
   return (
     <div className="">
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>

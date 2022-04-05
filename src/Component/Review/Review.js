@@ -8,10 +8,9 @@ const Review = (props) => {
     return (
         <div className='review-cart'>
 
+            <blockquote>"{review}"</blockquote>
+            <hr />
             <h3>Name: {name} </h3>
-            <hr />
-            <p>{review} </p>
-            <hr />
             <p>Ratings: <strong>{ratings}</strong></p>
         </div>
     );

@@ -2,10 +2,10 @@
 
 [Click Here To See The Live Website](https://darling-pasca-a70948.netlify.app/)
 
-* Created a React website using "React Router"
-* Use Hooks for reduce code
-* Add Two Charts on Dashboard page using "rechart"
-* Add Some General Question Answer on Blog Section
+* Created a React website using "React Router".
+* Use Hooks for reduce code.
+* Add Two Charts on Dashboard page using "rechart".
+* Add Some General Question Answer on Blog Section.
 
 ## Available Scripts
 

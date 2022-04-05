@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Buy Your Favourite Shoes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Click Here To See The Live Website](https://darling-pasca-a70948.netlify.app/)
+
+* Created a React website using "React Router"
+* Use Hooks for reduce code
+* Add Two Charts on Dashboard page using "rechart"
+* Add Some General Question Answer on Blog Section
 
 ## Available Scripts
 
